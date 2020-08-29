@@ -1,3 +1,6 @@
+# function that takes Seifert invariants defining a Brieskorn sphere
+# and returns the corresponding linking matrix
+
 import numpy as np
 from continued_fractions import cont_frac
 
