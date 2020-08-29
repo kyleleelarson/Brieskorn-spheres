@@ -1,4 +1,4 @@
-# calculated continued fractions
+# calculate continued fractions
 
 def cont_frac(p,q): #assumes p>|q|>0
 	neg = False
