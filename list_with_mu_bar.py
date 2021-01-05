@@ -24,7 +24,7 @@ for i0 in range(2, 200):
 		for k in range(j+1,200):
 			if gcd(i0,j) == 1 and gcd(k,j) == 1 and gcd(i0,k) == 1:
 				##################################
-				# produce Seifert invariants, using first all positive solution
+				# produce Seifert invariants, using first positive solution
 				a1, a2, a3 = i0, j, k
 				b1 = bi(a1,a2,a3)
 				b2 = bi(a2,a1,a3)
