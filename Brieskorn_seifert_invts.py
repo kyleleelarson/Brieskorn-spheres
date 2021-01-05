@@ -30,3 +30,4 @@ for l in f:
 				fout.write(str(mu)+' '+str(b)+' '+str(a1)+' '+str(b1)+' '+str(a2)+' '+str(b2)+' '+str(a3)+' '+str(b3)+'\n')
 
 f.close()
+fout.close()
