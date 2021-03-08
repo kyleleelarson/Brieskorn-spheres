@@ -26,7 +26,7 @@ for l in f:
 			for k in [1,2]:
 				b3 = b3 + (-1)**k * a3
 				b = int((b1*a2*a3 + a1*b2*a3 + a1*a2*b3 - 1) / (a1*a2*a3))
-				#print("(b;a1/b1,a2/b2,a3/b3) = (%d;%d/%d,%d/%d,%d/%d)" % (b,a1,b1,a2,b2,a3,b3))
+				# print("(b;a1/b1,a2/b2,a3/b3) = (%d;%d/%d,%d/%d,%d/%d)" % (b,a1,b1,a2,b2,a3,b3))
 				fout.write(str(mu)+' '+str(b)+' '+str(a1)+' '+str(b1)+' '+str(a2)+' '+str(b2)+' '+str(a3)+' '+str(b3)+'\n')
 
 f.close()
